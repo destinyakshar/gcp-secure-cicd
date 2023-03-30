@@ -16,7 +16,7 @@ clear
 
 # EDIT THESE VALUES
 # env variables
-export PROJECT_ID=YOUR-PROJECT-ID
+export PROJECT_ID=euphoric-axon-382110
 export CLUSTER_CONTEXT=gke_project-name_zone-region_test-cluster
 export WORKING_DIR=/path/to/your/repo
 
