@@ -5,7 +5,7 @@ if [[ -z "${PROJECT_ID}" ]]; then
   return
 fi
 # sets the current project for gcloud
-gcloud config set project $PROJECT_ID
+gcloud config set project euphoric-axon-382110
 # Enables various APIs you'll need
 gcloud services enable container.googleapis.com cloudbuild.googleapis.com \
 artifactregistry.googleapis.com clouddeploy.googleapis.com \
